@@ -2,9 +2,6 @@ from os import system
 from msvcrt import getwch
 import time
 
-from model import TelephoneContact
-
-
 def list_contacts(contacts):
     table = [['ФАМИЛИЯ', 'ИМЯ', 'ОТЧЕСТВО', 'НОМЕР ТЕЛЕФОНА']]
     for c in contacts:
